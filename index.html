@@ -1,24 +1,7 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Yifan Xu — Portfolio</title><link rel="stylesheet" href="style.css"></head>
-<body><a class="skip" href="#home">Skip to content</a><div class="shell"><aside class="sidebar"><a class="brand" href="#home">YIFAN XU<span>PORTFOLIO</span></a><div class="rule"></div><p class="side-note">A record of making,<br>thinking and learning.</p><nav aria-label="Main navigation"><a href="#home"><small>01</small>Home <span>↗</span></a><a href="about.html"><small>02</small>About Me <span>↗</span></a><a href="#reflections"><small>03</small>Weekly Reflections <span>↗</span></a></nav></aside>
-<main class="board" id="home"><div class="objects"><section class="welcome paper"><span class="mount-pin" aria-hidden="true"></span><h1>A space for<br>my ideas.</h1><p>A portfolio of workshop experiments, weekly reflections and ideas in progress.</p><a class="text-link" href="#reflections">Explore the reflections <span>↗</span></a></section>
-<a class="tag" href="about.html"><span class="mount-pin" aria-hidden="true"></span><small>01 / INTRODUCTION</small><strong>About<br>Me</strong><span class="tag-bottom">MEET YIFAN ↗</span></a>
-<section class="sleeve" id="reflections"><span class="mount-pin" aria-hidden="true"></span><i class="screw s1" aria-hidden="true"></i><i class="screw s2" aria-hidden="true"></i><i class="screw s3" aria-hidden="true"></i><i class="screw s4" aria-hidden="true"></i><div class="sleeve-paper"><h2>Weekly<br>Reflections</h2><p class="caption">Experiences, questions and connections.</p><a class="week" href="week-1.html"><span>01</span><div><strong>Week 1</strong></div><b>↗</b></a><a class="week" href="week-2.html"><span>02</span><div><strong>Week 2</strong></div><b>↗</b></a><a class="week" href="week-3.html"><span>03</span><div><strong>Week 3</strong></div><b>↗</b></a></div></section>
-</div></main></div><script>
-// Align each fixing pin with the board's 34px hole grid.
-function alignPins(){
- const board=document.querySelector('.board');
- const rect=board.getBoundingClientRect();
- const x=rect.left+board.clientLeft+34;
- const y=rect.top+board.clientTop+34;
- document.querySelectorAll('.welcome,.tag,.sleeve').forEach(card=>{
-  card.style.transform='none';
-  const pin=card.querySelector('.mount-pin').getBoundingClientRect();
-  const cx=pin.left+pin.width/2,cy=pin.top+pin.height/2;
-  const dx=x+Math.round((cx-x)/34)*34-cx;
-  const dy=y+Math.round((cy-y)/34)*34-cy;
-  card.style.transform=`translate(${dx}px,${dy}px)`;
- });
-}
-window.addEventListener('load',alignPins);window.addEventListener('resize',alignPins);
-</script></body></html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Yifan Xu — Digital Media Portfolio</title><link rel="stylesheet" href="style.css"></head>
+<body><a class="skip" href="#home">Skip to content</a><div class="shell"><aside class="sidebar"><a class="brand" href="#home">YIFAN XU<span>DIGITAL MEDIA PORTFOLIO</span></a><div class="rule"></div><p class="side-note">A record of making,<br>thinking and learning.</p><nav aria-label="Main navigation"><a href="#home"><small>01</small>Home <span>↗</span></a><a href="#about"><small>02</small>About Me <span>↗</span></a><a href="#reflections"><small>03</small>Weekly Reflections <span>↗</span></a></nav><div class="side-bottom">MA DIGITAL MEDIA<br>UNIVERSITY OF LEEDS<br><span>2026 — 2027</span></div></aside>
+<main class="board" id="home"><div class="board-label">THE LEARNING BOARD <span>SEMESTER 01 / 2026</span></div><div class="objects"><section class="welcome paper"><span class="clip" aria-hidden="true"></span><p class="eyebrow">FIELD NOTES / YIFAN XU</p><h1>Making sense<br>of digital media.</h1><p>A portfolio of workshop experiments, weekly reflections and ideas in progress.</p><a class="text-link" href="#reflections">Explore the reflections <span>↗</span></a><a class="work-link" href="work1.html">Work 1 · Creating and hosting a website ↗</a><div class="paper-foot">LEARN · MAKE · REFLECT</div></section>
+<a class="tag" href="#about"><span class="ring" aria-hidden="true"></span><small>01 / INTRODUCTION</small><strong>About<br>Me</strong><span class="tag-bottom">MEET YIFAN ↗</span></a>
+<section class="sleeve" id="reflections"><span class="hook" aria-hidden="true"></span><div class="sleeve-paper"><p class="eyebrow">02 / LEARNING ARCHIVE</p><h2>Weekly<br>Reflections</h2><p class="caption">Experiences, questions and connections.</p><a class="week" href="week-1.html"><span>01</span><div><strong>Week 1</strong><small>Reflection to be added</small></div><b>↗</b></a><a class="week" href="week-2.html"><span>02</span><div><strong>Creating a website</strong><small>Week 2 · Reflection to be added</small></div><b>↗</b></a><a class="week" href="week-3.html"><span>03</span><div><strong>Week 3</strong><small>Reflection to be added</small></div><b>↗</b></a><div class="archive-foot">UPDATED THROUGHOUT THE SEMESTER</div></div></section>
+<section class="id-card" id="about"><span class="hook" aria-hidden="true"></span><div class="id-inner"><p class="eyebrow">03 / ABOUT ME</p><div class="id-top"><div class="monogram">YX</div><div><h2>Yifan Xu</h2><span>MA Digital Media<br>University of Leeds</span></div></div><p>I am studying Digital Media at the University of Leeds, with a background in advertising. This portfolio documents my learning through practical workshops and critical reflection.</p><h3>Current coursework</h3><ul class="course-list"><li>COMM5780 · Website workshop</li></ul><div class="id-footer">STUDENT / MAKER / OBSERVER</div></div></section><div class="board-note">Ideas take shape<br>through practice.<span>WORK IN PROGRESS — 2026</span></div></div><footer>YIFAN XU © 2026 <span>PERSONAL LEARNING PORTFOLIO</span></footer></main></div></body></html>
