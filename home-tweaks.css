@@ -1,0 +1,35 @@
+@media (min-width: 751px) {
+  .board {
+    min-height: 1030px;
+  }
+
+  .board-content {
+    min-height: 980px;
+  }
+}
+
+@media (min-width: 1550px) {
+  .board {
+    min-height: 1100px;
+  }
+
+  .board-content {
+    min-height: 1050px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1100px) {
+  .board {
+    min-height: 1050px;
+  }
+
+  .board-content {
+    min-height: 1000px;
+  }
+}
+
+@media (max-width: 750px) {
+  .acrylic {
+    margin-top: -10px;
+  }
+}
